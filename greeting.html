@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting by Prasanth</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="fireworks fixed left-0 right-0 top-0 bottom-0"></div>
+   <main class="flex items-center justify-center  h-screen">
+    <div class="text-center bg-gray-950 p-10 rounded bg-opacity-25">
+        <h1 class="text-6xl">HAPPY</h1>
+        <h1 class="text-6xl text-orange-500">NEW YEAR</h1>
+        <span class="text-[100px] font-semibold">20<span class="text-orange-500">25</span></span>
+        <div>
+            -Prasanth-
+            <div class="social-networks"></div>
+        </div>
+
+    </div>
+   </main>
+<!-- jsDelivr  -->
+<script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+
+<!-- UNPKG -->
+<script src="https://unpkg.com/fireworks-js@2.x/dist/index.umd.js"></script>
+
+<!-- Usage -->
+<script>
+  const container = document.querySelector('.fireworks')
+  const fireworks = new Fireworks.default(container)
+  fireworks.start()
+</script>
+    
+</body>
+</html>

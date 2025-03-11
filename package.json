@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.12",
+    "fireworks-js": "^2.10.8",
     "tailwindcss": "^4.0.12"
   }
 }
